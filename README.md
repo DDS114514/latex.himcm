@@ -9,7 +9,7 @@
 ### 克隆项目
 在终端（Terminal）输入下面的命令，把项目下载到你的电脑：
 ```bash
-git clone https://github.com/yourusername/MathModelingProject.git
+git clone https://github.com/magicdlf/latex.himcm.git
 ```
 
 ### 配置自动暂存（auto-stash）
