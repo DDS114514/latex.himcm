@@ -1,0 +1,37 @@
+\documentclass[11pt,a4paper]{ctexart} % 使用 ctexart 自动支持中文
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\bibliographystyle{plain}
+
+\title{城市垃圾回收数学建模项目}
+\author{团队号：IMMC25954575}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+% ----------------------- 第一部分：介绍 -----------------------
+\input{sections/introduction}
+
+% ----------------------- 第二部分：任务1 - 数据收集 -----------------------
+\input{sections/data_collection}
+
+% ----------------------- 第三部分：任务2 - 模型建立 -----------------------
+\input{sections/model_establishment}
+
+% ----------------------- 第四部分：任务3 - 灵敏度分析 -----------------------
+\input{sections/sensitivity_analysis}
+
+% ----------------------- 第五部分：结论 -----------------------
+\input{sections/conclusion}
+
+% ----------------------- 参考文献 -----------------------
+\newpage
+
+\bibliography{bibliography}
+
+\end{document}
